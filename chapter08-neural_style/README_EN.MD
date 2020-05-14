@@ -1,3 +1,5 @@
+## [中文版本](README.MD)
+
 Code for  *PyTorch: Introduction and Practice*, chapter-8 fast neural style.
 
 ## Env Setup
@@ -18,7 +20,7 @@ data
 ```
 
 ## Run
-If you would like to use `visdom`, `python -m visdom.server` to run the visdom server.
+If you would like to use `visdom`, `nohup python -m visdom.server &` to start the visdom server.
 
 Command:
 ```
@@ -79,8 +81,8 @@ To train more styles, try different style images by `--style-path=mystyle.png`
 ### Code Compatibility
 train 
 - [x] GPU  
-- [] CPU 
-- [] Python2
+- [ ] CPU 
+- [ ] Python2
 - [x] Python3
 
 test: 
